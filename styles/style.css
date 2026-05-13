@@ -850,8 +850,8 @@ h2 {
     .nav .container {
         padding: 9px 12px;
     }
-    .header__mail,
-    .header__tel {
+    .header .header__mail,
+    .header .header__tel {
         display: none;
     }
     .header__nav {
