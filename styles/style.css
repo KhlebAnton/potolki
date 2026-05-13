@@ -819,9 +819,7 @@ h2 {
         grid-template-columns: 1fr;
     }
 
-    .hero-content {
-        padding: 20px 0;
-    }
+    
 
 }
 
@@ -872,16 +870,14 @@ h2 {
         display: none;
     }
 
-    .main {
-        margin-top: 14px;
-    }
+    
 
     .header .header__top {
         padding-top: 8px;
     }
 
     .hero-content {
-        padding: 10px 0;
+        padding: 30px 0;
     }
 }
 
