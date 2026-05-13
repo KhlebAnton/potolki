@@ -854,13 +854,11 @@ h2 {
     .header .header__tel {
         display: none;
     }
-    .header__nav {
-        font-size: 14px;
-    }
+    
     .main {
         margin-top: 4px;
     }
-    .header__top {
+    .header .header__top {
         padding-top: 8px;
     }
         .hero-content {
@@ -890,15 +888,11 @@ h2 {
     .hero-img {
         height: 350px;
     }
-    
-    .header__nav {
-        flex-wrap: nowrap;
-        overflow-y: auto;
-        padding-bottom: 6px;
+    .nav:not(.footer_nav) {
+        display: none;
     }
- .header__nav a {
-    flex-shrink: 0;
- }
+    
+    
 }
 
 @media (max-width:500px) {
