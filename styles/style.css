@@ -45,12 +45,14 @@ h3 {
     height: 34px;
     flex-shrink: 0;
 }
+
 .footer .container,
 .header .container {
     border-top: 15px solid #f7f6f6;
     padding: 0 12px;
 
 }
+
 .header__top {
     padding-top: 20px;
     display: flex;
@@ -104,23 +106,28 @@ h3 {
     flex-wrap: wrap;
     text-align: center;
 }
+
 .footer_nav .container {
     padding: 9px 20px;
 }
+
 .main {
     margin-top: 20px;
 }
+
 h1 {
- font-size: 27px;
+    font-size: 27px;
     display: inline-block;
     background-color: #ffffff;
     padding: 16px 16px 10px 20px;
     font-weight: 700;
 }
+
 .hero-title {
-   
+
     margin-bottom: 70px;
 }
+
 .no-page_content {
     display: flex;
     flex-direction: column;
@@ -128,12 +135,15 @@ h1 {
     gap: 30px;
     padding: 40px 0;
 }
+
 .no-page_content p {
     font-size: 20px;
 }
+
 section.no-page {
-    min-height:calc(100vh - 280px);
+    min-height: calc(100vh - 280px);
 }
+
 .hero-content {
     padding: 40px 0;
 }
@@ -781,6 +791,7 @@ h2 {
         gap: 10px 20px;
         padding-bottom: 10px;
     }
+
     .header__nav {
         gap: 10px 20px;
     }
@@ -816,8 +827,10 @@ h2 {
 
 @media (max-width:900px) {
     .header .container {
-    border-top: 4px solid #f7f6f6;
-}
+        
+        border-top: 15px solid #f7f6f6;
+    }
+
     .how-work-items {
         grid-template-columns: 1fr;
     }
@@ -841,27 +854,33 @@ h2 {
         background-color: #ffffff;
         padding: 8px;
     }
+
     .how-work-items {
         margin-top: 20px;
     }
+
     .logo-wrapper {
         font-size: 20px;
     }
+
     .nav .container {
         padding: 9px 12px;
     }
+
     .header .header__mail,
     .header .header__tel {
         display: none;
     }
-    
+
     .main {
         margin-top: 14px;
     }
+
     .header .header__top {
         padding-top: 8px;
     }
-        .hero-content {
+
+    .hero-content {
         padding: 10px 0;
     }
 }
@@ -885,14 +904,19 @@ h2 {
         flex-direction: column;
         align-items: start;
     }
+
     .hero-img {
         height: 350px;
     }
+
     .nav:not(.footer_nav) {
         display: none;
     }
-    
-    
+    .header .container {
+        border-bottom: 8px solid #f7f6f6;
+    }
+
+
 }
 
 @media (max-width:500px) {
@@ -904,7 +928,8 @@ h2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-     .hero-img {
+
+    .hero-img {
         height: 240px;
     }
 }
