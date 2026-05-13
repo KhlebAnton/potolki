@@ -845,9 +845,11 @@ h2 {
     .hero-img {
         height: 400px;
     }
+    h1 {
+        font-size: 21px;
 
+    }   
     .hero-title {
-        font-size: 27px;
         display: inline-block;
         background-color: #ffffff;
         padding: 8px;
@@ -858,7 +860,7 @@ h2 {
     }
 
     .logo-wrapper {
-        font-size: 20px;
+        font-size:18px;
     }
 
     .nav .container {
