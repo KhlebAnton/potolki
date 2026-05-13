@@ -890,7 +890,15 @@ h2 {
     .hero-img {
         height: 350px;
     }
-
+    
+    .header__nav {
+        flex-wrap: nowrap;
+        overflow-y: auto;
+        padding-bottom: 6px;
+    }
+ .header__nav a {
+    flex-shrink: 0;
+ }
 }
 
 @media (max-width:500px) {
