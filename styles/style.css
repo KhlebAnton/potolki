@@ -106,16 +106,30 @@ h3 {
 .main {
     margin-top: 20px;
 }
-
-.hero-title {
-    font-size: 27px;
+h1 {
+ font-size: 27px;
     display: inline-block;
     background-color: #ffffff;
     padding: 16px 16px 10px 20px;
     font-weight: 700;
+}
+.hero-title {
+   
     margin-bottom: 70px;
 }
-
+.no-page_content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    padding: 40px 0;
+}
+.no-page_content p {
+    font-size: 20px;
+}
+section.no-page {
+    min-height:calc(100vh - 280px);
+}
 .hero-content {
     padding: 40px 0;
 }
