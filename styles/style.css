@@ -17,8 +17,8 @@ a {
 }
 
 .container {
-    max-width: 1240px;
-    padding: 0 20px;
+    max-width: 1320px;
+    padding: 0 60px;
     width: 100%;
     margin: 0 auto;
     background-color: #faf9f9;
@@ -45,14 +45,17 @@ h3 {
     height: 34px;
     flex-shrink: 0;
 }
+.header .container {
+    border-top: 15px solid #f7f6f6;
 
+}
 .header__top {
-    padding-top: 34px;
+    padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 56px;
-    padding-bottom: 27px;
+    padding-bottom: 24px;
 }
 
 .header__text {
@@ -86,6 +89,8 @@ h3 {
 .nav .container {
     background-color: #edeae9;
     padding: 9px 20px;
+    border-bottom: 8px solid #f7f6f6;
+
 
 }
 
@@ -135,8 +140,8 @@ h3 {
 }
 
 .faq-links .container {
-    border-top: 3px solid #57575756;
-    border-bottom: 3px solid #57575756;
+    border-top: 3px solid #e3e3e3;
+    border-bottom: 3px solid #e3e3e3;
 
 }
 
@@ -203,7 +208,7 @@ h2 {
     font-weight: 400;
 
     color: #737373;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 .circle-icon::before {
@@ -226,7 +231,7 @@ h2 {
     width: 100%;
     aspect-ratio: 325 / 235;
     object-fit: cover;
-    margin: 8px 0;
+    margin: 12px 0;
 }
 
 .roof_catalog__item-link {
@@ -298,6 +303,7 @@ h2 {
     align-items: center;
     gap: 10px;
     color: #838383;
+    background-color: #faf9f9;
 }
 
 .calculator-label {
@@ -752,7 +758,11 @@ h2 {
     }
 
     .header__top {
-        gap: 20px;
+        gap: 10px 20px;
+        padding-bottom: 10px;
+    }
+    .header__nav {
+        gap: 10px 20px;
     }
 }
 
@@ -785,6 +795,9 @@ h2 {
 }
 
 @media (max-width:900px) {
+    .header .container {
+    border-top: 4px solid #f7f6f6;
+}
     .how-work-items {
         grid-template-columns: 1fr;
     }
@@ -810,6 +823,9 @@ h2 {
     }
     .how-work-items {
         margin-top: 20px;
+    }
+    .logo-wrapper {
+        font-size: 20px;
     }
 }
 
